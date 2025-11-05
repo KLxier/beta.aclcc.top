@@ -1,4 +1,4 @@
-        @font-face {
+@font-face {
             font-family: '拾陆字濑户2.0';
             src: url('data/fonts/拾陆字濑户2.0.ttf') format('truetype');
             font-style: normal;
@@ -29,7 +29,6 @@
             align-items: center;
             width: 100%;
             height: 100%;
-            position: relative;
         }
         .navbar-brand {
             color: white;
@@ -68,27 +67,22 @@
             .navbar-menu {
                 display: none;
                 position: absolute;
-                top: 60px;
+                top: 100%;
                 left: 0;
                 width: 100%;
                 background-color: #004297;
                 flex-direction: column;
-                align-items: center;
-                padding: 0.5rem 0;
-                z-index: 1000;
-                box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+                padding: 1rem;
+
+
+
             }
 
             .navbar-menu.active {
                 display: flex;
             }
 
-            .navbar-menu a {
-                width: 90vw;
-                text-align: center;
-                margin: 0.5rem 0;
-                font-size: 1.3rem;
-            }
+            
 
             .navbar-toggle {
                 display: block;
