@@ -3,6 +3,11 @@
             src: url('data/fonts/拾陆字濑户2.0.ttf') format('truetype');
             font-style: normal;
         }
+        @font-face {
+            font-family: 'MPLUSRounded1c-Bold';
+            src: url('data/fonts/MPLUSRounded1c-Bold.ttf') format('truetype');
+            font-style: normal;
+        }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         .navbar {
             background-color: #004297;
@@ -144,4 +149,13 @@
     margin: 0 auto;
     line-height: 1.6;
     text-decoration: none;
+}
+.footer {
+    font-family: 'MPLUSRounded1c-Bold', sans-serif;
+    font-size: 2rem;
+    color: #3FA9FF;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-decoration: none;
+    text-align: center;
 }
