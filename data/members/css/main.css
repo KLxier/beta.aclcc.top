@@ -36,7 +36,6 @@
 }
 
 .member img {
-    display: block;
     background-color: gray;
     border-radius: 50px;
     width: 50px;
@@ -80,6 +79,7 @@
 }
 
 .model-content img {
+    display: block;
     float: right;
     margin: 20px;
     background: gray;
