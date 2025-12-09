@@ -3,6 +3,7 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px; /* 设置网格间隙 */
     padding: 10px;
+    font-size: 75%;
 }
 
 .member {

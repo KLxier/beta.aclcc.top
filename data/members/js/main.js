@@ -6,7 +6,8 @@ data.forEach(function (member) {
     $member.setAttribute("data-id", member.id);
     $member.innerHTML = `
             <img src="data/members/img/member/${member.id}.png" alt="${member.name}">
-            <h2>${member.name}</h2>
+            <h2><p class="anti-strong">${member.name}</p></h2>
+            <p>${member.desshort}</p>
             <p>${member.detail}</p>
         `;
     membersContainer.appendChild($member);
